@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'mrdu'
-  s.version       = '1.0.2'
+  s.version       = '1.0.3'
   s.date          = '2013-05-21'
   s.summary       = "Spawn a temporary MySQL instance off a RAM disk on Ubuntu."
   s.description   = "Spawn a temporary MySQL instance off a RAM disk on Ubuntu."
