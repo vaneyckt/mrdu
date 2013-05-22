@@ -15,8 +15,8 @@ Install the gem at the command prompt:
 
     $ mrdu
 
-That's it. This will reserve 512 MB of ramdisk and start a MySQL instance on port 3307. There's lot of options that can be specified as well.
+That's it. This will reserve 512 MB of ramdisk and start a MySQL instance on port 3307.
 
-You can learn more about these by running:
+There's lot of options that can be specified as well. You can learn more about these options by running:
 
     $ mrdu --help
