@@ -1,0 +1,22 @@
+== Introduction
+Mrdu is a Ruby gem that makes it super easy to spawn a temporary MySQL instance off a RAM disk in Ubuntu. This allows for very fast database operations, which can be useful for speeding up large test suites.
+
+This gem borrows heavily from the work done by these amazing people:
+- https://github.com/mezis/mrd
+- http://www.techusers.net/114/running-multiple-instances-mysql-mysqld-ubuntu-1004
+- http://www.ducea.com/2009/01/19/running-multiple-instances-of-mysql-on-the-same-machine/
+
+== Getting Started
+Install the gem at the command prompt:
+
+    $ gem install mrdu
+
+== Usage
+
+    $ mrdu
+
+That's it. This will reserve 512 MB of ramdisk and start a MySQL instance on port 3307. There's lot of options that can be specified as well.
+
+You can learn more about these by running:
+
+    $ mrdu --help
